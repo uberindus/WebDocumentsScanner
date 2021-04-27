@@ -4,7 +4,7 @@ A class used to extracte urls of documents from one or more sites
 ##
 ```python
 from WebDocumentsScanner import WebDocumentsScanner
-ws = WebDocumentsScanner("https://github.com", 30)
+ws = WebDocumentsScanner("https://github.com", 5)
 
 print(*ws.internal_links, sep="\n")
 """
